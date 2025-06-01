@@ -1,0 +1,27 @@
+   local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+    local Window = Library:NewWindow("FxZ Gui")
+    
+    local Tab = Window:NewSection("Credits: Zyro")
+
+    Tab:CreateToggle("AUTO FARM", function(no)
+    _G.GetWins = no
+    while _G.GetWins== true do
+        wait(0.0001)
+        local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").Batman:FindFirstChild("Left Arm").Lshoulder.RightShoulderAttachment.dLJtcFktGhiUviCshf:InvokeServer(unpack(args))
+
+    end
+    end)
+
+    local Tab = Window:NewSection("Links")
+    
+    Tab:CreateButton("Discord Group", function()
+    print("HI")
+    
+    setclipboard("https://discord.gg/f9CEfBPJ")
+    toclipboard("https://discord.gg/f9CEfBPJ")
+    
+    end)
